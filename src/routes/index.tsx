@@ -274,8 +274,8 @@ function Index() {
               )}
             </div>
 
-            {/* Timeline horizontal */}
-            <ol className="relative mt-6 flex items-start justify-between gap-2">
+            {/* Timeline en 2 columnas */}
+            <ol className="relative mt-6 grid grid-cols-1 gap-x-6 gap-y-1 sm:grid-cols-2">
               {STEP_LABELS.map((label, i) => (
                 <TimelineStep key={label} index={i} label={label} status={steps[i]} />
               ))}
