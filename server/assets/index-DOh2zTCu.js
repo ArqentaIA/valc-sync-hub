@@ -1,5 +1,5 @@
-import { r as reactExports, T as React, U as jsxRuntimeExports } from "./worker-entry-6yHPMAPD.js";
-import { R as ReactDOM } from "./router-CquMgb7P.js";
+import { r as reactExports, T as React, U as jsxRuntimeExports } from "./worker-entry-BwVadPnz.js";
+import { R as ReactDOM } from "./router-CLrXwksV.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
@@ -133,8 +133,8 @@ const __iconNode = [
   ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }]
 ];
 const Upload = createLucideIcon("upload", __iconNode);
-const bgImage = "/assets/embarques-D2Mb3PjE.jpg";
-const logoValc = "/assets/logo_VALC-B5Bcow9Q.ico";
+const bgImage = "/valc-sync-hub/assets/embarques-D2Mb3PjE.jpg";
+const logoValc = "/valc-sync-hub/assets/logo_VALC-B5Bcow9Q.ico";
 var XLSX = {};
 XLSX.version = "0.18.5";
 var current_ansi = 1252;
