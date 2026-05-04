@@ -29,16 +29,15 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Logistics File Processor uploads Excel files, processes data, and provides a downloadable consolidated report." },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Logistics File Processor uploads Excel files, processes data, and provides a downloadable consolidated report." },
+      { title: "Procesador de Archivos | VALC" },
+      { name: "description", content: "Procesador de archivos de VALC para cargar, agrupar y descargar reportes consolidados de Excel." },
+      { name: "author", content: "VALC" },
+      { property: "og:title", content: "Procesador de Archivos | VALC" },
+      { property: "og:description", content: "Procesador de archivos de VALC para cargar, agrupar y descargar reportes consolidados de Excel." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
-      { name: "twitter:description", content: "Logistics File Processor uploads Excel files, processes data, and provides a downloadable consolidated report." },
+      { name: "twitter:title", content: "Procesador de Archivos | VALC" },
+      { name: "twitter:description", content: "Procesador de archivos de VALC para cargar, agrupar y descargar reportes consolidados de Excel." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9426ac26-bbd3-4e84-a294-4d8abcc69d98/id-preview-8840053b--d110c596-4a32-48a2-aa86-528f2d72dc52.lovable.app-1777668359526.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9426ac26-bbd3-4e84-a294-4d8abcc69d98/id-preview-8840053b--d110c596-4a32-48a2-aa86-528f2d72dc52.lovable.app-1777668359526.png" },
     ],
@@ -56,7 +55,7 @@ export const Route = createRootRoute({
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <HeadContent />
       </head>
