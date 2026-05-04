@@ -1,0 +1,79 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/dell/Desktop/VALC Shipping/plataforma II/src/styles.css": {
+    "file": "assets/styles-CwMmFiEl.css",
+    "src": "C:/Users/dell/Desktop/VALC Shipping/plataforma II/src/styles.css"
+  },
+  "_router-CquMgb7P.js": {
+    "file": "assets/router-CquMgb7P.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-6yHPMAPD.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CwMmFiEl.css"
+    ]
+  },
+  "_worker-entry-6yHPMAPD.js": {
+    "file": "assets/worker-entry-6yHPMAPD.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-CquMgb7P.js",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/embarques.jpg": {
+    "file": "assets/embarques-D2Mb3PjE.jpg",
+    "src": "src/assets/embarques.jpg"
+  },
+  "src/assets/logo_VALC.ico": {
+    "file": "assets/logo_VALC-B5Bcow9Q.ico",
+    "src": "src/assets/logo_VALC.ico"
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CPfd92ue.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-6yHPMAPD.js",
+      "_router-CquMgb7P.js"
+    ],
+    "assets": [
+      "assets/embarques-D2Mb3PjE.jpg",
+      "assets/logo_VALC-B5Bcow9Q.ico"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-qA6MIrxC.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-6yHPMAPD.js"
+    ]
+  }
+}
